@@ -49,7 +49,11 @@ void display()
 	int i,j;
 	for(i=0;i<N;i++){
 		for(j=0;j<N;j++){
-			printf("%d|",board[i][j]);
+			if(board[i][j])
+				printf("Q "):
+			else
+				printf("* ");
+			//printf("%d|",board[i][j]);
 		}
 		printf("\n");
 	}
